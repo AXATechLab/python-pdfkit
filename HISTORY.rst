@@ -1,5 +1,7 @@
 Changelog
 ---------
+* `0.6.2`
+    * repo state as of 22.10.2018 (see commit log for more details)
 * `0.6.1`
     * Fix regression on python 3+ when trying to decode pdf output
 * `0.6.0`
