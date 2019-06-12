@@ -136,6 +136,7 @@ class PDFKit(object):
         # Sometimes wkhtmltopdf will exit with non-zero
         # even if it finishes generation.
         # If will display 'Done' in the second last line
+        print('stderr pdfkit', stderr)
         if stderr.splitlines()[-2].strip() == 'Done':
             return
 
